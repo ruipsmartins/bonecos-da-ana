@@ -10,20 +10,46 @@ function Footer() {
         crossorigin="anonymous"
       />
       <div id="links" class="linkscont">
-        <a href="https://www.facebook.com/ana.ribeiro.543" class="linkscont">
+        <a
+          href="https://www.facebook.com/ana.ribeiro.543"
+          class="linkscont"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fab fa-facebook-square"></i> Facebook
         </a>
-        <a id="links" href="https://github.com/ruipsmartins" class="linkscont">
+        <a
+          id="links"
+          href="https://github.com/ruipsmartins"
+          class="linkscont"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fab fa-github"></i> GitHub
         </a>
-        <a href="https://twitter.com/freecodecamp" class="linkscont">
-          <i class="fab fa-twitter"></i> Twitter
+        <a
+          href="https://www.instagram.com/lancheajantarado/"
+          class="linkscont"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-instagram"></i> Instagram
         </a>
-        <a href="mailto:test@gmail.com" class="linkscont">
+        <a
+          href="mailto:teste@gmail.com"
+          class="linkscont"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fas fa-at"></i> Enviar email
         </a>
-        <a href="tel:911111111" class="linkscont">
-          <i class="fas fa-mobile-alt"></i> 911111111
+        <a
+          href="tel:912345678"
+          class="linkscont"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-mobile-alt"></i> 912345678
         </a>
       </div>
     </section>

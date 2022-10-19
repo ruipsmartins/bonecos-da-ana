@@ -6,7 +6,7 @@ class NavBar extends Component {
     return (
       <div className="NavBar">
         <header className="NavBar-header">
-          <Link to="/">Bonecos da ana link Home</Link>
+          <Link to="/">Bonecos da Ana link Home</Link>
         </header>
       </div>
     );
