@@ -3,53 +3,47 @@ import React from "react";
 function Footer() {
   return (
     <section id="contacts">
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-        crossorigin="anonymous"
-      />
-      <div id="links" class="linkscont">
+      <div id="links" className="linkscont">
         <a
           href="https://www.facebook.com/ana.ribeiro.543"
-          class="linkscont"
+          className="linkscont"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-facebook-square"></i> Facebook
+          <i className="fab fa-facebook-square"></i> Facebook
         </a>
         <a
           id="links"
           href="https://github.com/ruipsmartins"
-          class="linkscont"
+          className="linkscont"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-github"></i> GitHub
+          <i className="fab fa-github"></i> GitHub
         </a>
         <a
           href="https://www.instagram.com/lancheajantarado/"
-          class="linkscont"
+          className="linkscont"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-instagram"></i> Instagram
+          <i className="fab fa-instagram"></i> Instagram
         </a>
         <a
           href="mailto:teste@gmail.com"
-          class="linkscont"
+          className="linkscont"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fas fa-at"></i> Enviar email
+          <i className="fas fa-at"></i> Enviar email
         </a>
         <a
           href="tel:912345678"
-          class="linkscont"
+          className="linkscont"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fas fa-mobile-alt"></i> 912345678
+          <i className="fas fa-mobile-alt"></i> 912345678
         </a>
       </div>
     </section>

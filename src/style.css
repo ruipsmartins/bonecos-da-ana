@@ -1,41 +1,39 @@
 :root {
   scroll-behavior: smooth;
   background-color: #282c34;
-  /*  --tamanhoimg: 30vw;
-  --tamanholinks: 3vw;
-  --tamanhonomes: 2.5vw; */
+  --tamanholinks: 20px;
+  --tamanhonomes: 20px;
 }
 
-body {
+/* body {
   margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: cadetblue;
+  background-color: rgb(128, 39, 108);
 }
-
-code {
+ */
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 /* styling NavBar */
 .NavBar {
-  text-align: center;
   background-color: #282c34;
   min-height: 60px;
   height: 9vw;
   max-height: 120px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
 }
-.NavBar a {
+#siteName {
   color: aliceblue;
   text-decoration: none;
 }
@@ -93,8 +91,7 @@ code {
 /*Final dos contactos*/
 @media (min-width: 1200px) {
   :root {
-    --tamanholinks: 35px;
-    --tamanhonomes: 30px;
+    --tamanholinks: 30px;
   }
 }
 
@@ -102,7 +99,6 @@ code {
   .nav {
     justify-content: center;
     --tamanholinks: 12px;
-    --tamanhonomes: 12px;
   }
 
   :root {
