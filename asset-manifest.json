@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bonecos-da-ana/static/css/main.59b82b5c.css",
-    "main.js": "/bonecos-da-ana/static/js/main.2477f5ab.js",
+    "main.css": "/bonecos-da-ana/static/css/main.48bc0fc1.css",
+    "main.js": "/bonecos-da-ana/static/js/main.44376e27.js",
     "index.html": "/bonecos-da-ana/index.html",
-    "main.59b82b5c.css.map": "/bonecos-da-ana/static/css/main.59b82b5c.css.map",
-    "main.2477f5ab.js.map": "/bonecos-da-ana/static/js/main.2477f5ab.js.map"
+    "main.48bc0fc1.css.map": "/bonecos-da-ana/static/css/main.48bc0fc1.css.map",
+    "main.44376e27.js.map": "/bonecos-da-ana/static/js/main.44376e27.js.map"
   },
   "entrypoints": [
-    "static/css/main.59b82b5c.css",
-    "static/js/main.2477f5ab.js"
+    "static/css/main.48bc0fc1.css",
+    "static/js/main.44376e27.js"
   ]
 }
