@@ -1,7 +1,8 @@
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import NavBar from "./Components/navBar";
 import Trabalhos from "./Pages/trabalhos";
+import Footer from "./Components/footer";
 
 const RouteSwitch = () => {
   return (
@@ -11,14 +12,14 @@ const RouteSwitch = () => {
         <Route path="/" element={<Home />} />
         <Route path="/trabalhos" element={<Trabalhos />} />
       </Routes>
+      <Footer />
     </>
   );
 };
 
 export default RouteSwitch;
 
-{
-  /* <BrowserRouter>
+/* <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
@@ -30,4 +31,3 @@ export default RouteSwitch;
     </Route>
   </Routes>
 </BrowserRouter>; */
-}

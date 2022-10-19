@@ -1,0 +1,111 @@
+:root {
+  scroll-behavior: smooth;
+  background-color: #282c34;
+  /*  --tamanhoimg: 30vw;
+  --tamanholinks: 3vw;
+  --tamanhonomes: 2.5vw; */
+}
+
+body {
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: cadetblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* styling NavBar */
+.NavBar {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 60px;
+  height: 9vw;
+  max-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.NavBar a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* styling Homepage */
+.boxHome {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* styling  trabalhos no Home*/
+.trabalhosImg {
+  background-color: aqua;
+  width: 95vw;
+  text-align: center;
+  align-self: center;
+}
+
+/* styling pages */
+
+.smallBoxPage {
+  background-color: cadetblue;
+  width: 95vw;
+  text-align: center;
+  align-self: center;
+}
+
+/* styling footer */
+#contacts {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #282c34;
+  height: 10vh;
+  padding-top: 50px;
+}
+
+.linkscont {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+
+  font-size: var(--tamanholinks);
+  font-weight: 600;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(0, 93, 175);
+  gap: 15px;
+  text-decoration: none;
+  background-color: #282c34;
+}
+
+/*Final dos contactos*/
+@media (min-width: 1200px) {
+  :root {
+    --tamanholinks: 35px;
+    --tamanhonomes: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav {
+    justify-content: center;
+    --tamanholinks: 12px;
+    --tamanhonomes: 12px;
+  }
+
+  :root {
+    --tamanhoimg: 25vw;
+  }
+}

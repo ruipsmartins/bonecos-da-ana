@@ -4,9 +4,11 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <h1>Home</h1>
-        <Link to="/trabalhos">Imagens dos Trabalhos</Link>
+      <div className="boxHome">
+        <div className="trabalhosImg">
+          <h1>Home</h1>
+          <Link to="/trabalhos">Trabalhos</Link>
+        </div>
       </div>
     );
   }
