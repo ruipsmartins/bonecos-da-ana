@@ -2,6 +2,7 @@
   scroll-behavior: smooth;
   --tamanholinks: 20px;
   --tamanhonomes: 20px;
+  background-color: #282c34;
 }
 
 /* body {
@@ -13,15 +14,12 @@
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(128, 39, 108);
 }
- */
-/* code {
+
+code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 } */
 
-html {
-  background-color: #282c34;
-}
 .bigBox {
   background-color: #282c34;
   display: flex;
@@ -72,17 +70,33 @@ textarea {
 
 /* styling Homepage */
 
-/* styling  trabalhos no Home*/
 .trabalhosImg {
+  margin-top: 10px;
   background-color: aqua;
   width: 95vw;
   text-align: center;
   align-self: center;
 }
 
+.categoriesBox {
+  margin-top: 10px;
+  background-color: aqua;
+  width: 95vw;
+  align-self: center;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.categories {
+  background-color: aliceblue;
+}
+
+/* ........................................ */
 /* styling pages */
 
 .smallBoxPage {
+  margin-top: 10px;
   background-color: cadetblue;
   width: 95vw;
   text-align: center;

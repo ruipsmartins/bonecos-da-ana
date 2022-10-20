@@ -7,7 +7,7 @@ class NavBar extends Component {
       <div className="bigBox">
         <div className="NavBar">
           <Link id="siteName" to="/">
-            Bonecos da Ana link Home
+            Bonecos da Ana
           </Link>
         </div>
       </div>

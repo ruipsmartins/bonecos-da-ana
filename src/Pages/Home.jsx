@@ -6,8 +6,15 @@ class Home extends Component {
     return (
       <div className="bigBox">
         <div className="trabalhosImg">
-          <h1>Home</h1>
+          <h1>por aqui uma imagem</h1>
           <Link to="/trabalhos">Trabalhos</Link>
+        </div>
+        <div className="categoriesBox">
+          <div className="categories">Marvel</div>
+          <div className="categories">DC</div>
+          <div className="categories">Disney</div>
+          <div className="categories">Harry Potter</div>
+          <div className="categories">Japoneses</div>
         </div>
       </div>
     );

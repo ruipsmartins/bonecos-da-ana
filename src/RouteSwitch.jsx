@@ -8,13 +8,15 @@ import Login from "./Pages/login";
 const RouteSwitch = () => {
   return (
     <>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/trabalhos" element={<Trabalhos />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-      <Footer />
+      <div className="bigBox">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/trabalhos" element={<Trabalhos />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+        <Footer />
+      </div>
     </>
   );
 };
