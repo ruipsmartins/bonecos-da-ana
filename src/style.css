@@ -1,6 +1,5 @@
 :root {
   scroll-behavior: smooth;
-  background-color: #282c34;
   --tamanholinks: 20px;
   --tamanhonomes: 20px;
 }
@@ -20,12 +19,45 @@
     monospace;
 } */
 
+html {
+  background-color: #282c34;
+}
+.bigBox {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* login form */
+input {
+  max-width: 500px;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 /* styling NavBar */
 .NavBar {
-  background-color: #282c34;
+  background-color: #0d1d3b;
+  border: solid 2px black;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
   min-height: 60px;
   height: 9vw;
   max-height: 120px;
+  width: 98vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -39,12 +71,6 @@
 }
 
 /* styling Homepage */
-.boxHome {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 
 /* styling  trabalhos no Home*/
 .trabalhosImg {

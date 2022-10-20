@@ -4,7 +4,7 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <div className="boxHome">
+      <div className="bigBox">
         <div className="trabalhosImg">
           <h1>Home</h1>
           <Link to="/trabalhos">Trabalhos</Link>

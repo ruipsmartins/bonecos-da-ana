@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import NavBar from "./Components/navBar";
 import Trabalhos from "./Pages/trabalhos";
 import Footer from "./Components/footer";
+import Login from "./Pages/login";
 
 const RouteSwitch = () => {
   return (
@@ -11,6 +12,7 @@ const RouteSwitch = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/trabalhos" element={<Trabalhos />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </>

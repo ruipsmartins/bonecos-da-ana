@@ -1,17 +1,17 @@
 import React, { Component } from "react";
+import LoginForm from "../Components/loginForm";
 
-class Trabalhos extends Component {
+class Login extends Component {
   state = {};
   render() {
     return (
       <div className="bigBox">
         <div className="smallBoxPage">
-          <h1>Imagens dos Trabalhos</h1>
-          <p>mais imagens</p>
+          <LoginForm />
         </div>
       </div>
     );
   }
 }
 
-export default Trabalhos;
+export default Login;
