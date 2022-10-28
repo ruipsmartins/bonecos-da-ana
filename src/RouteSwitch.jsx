@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import NavBar from "./Components/navBar";
 import Trabalhos from "./Pages/trabalhos";
+import Marvel from "./Pages/marvel";
 import Footer from "./Components/footer";
 import Login from "./Pages/login";
 
@@ -13,6 +14,7 @@ const RouteSwitch = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/trabalhos" element={<Trabalhos />} />
+          <Route path="/marvel" element={<Marvel />} />
           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />

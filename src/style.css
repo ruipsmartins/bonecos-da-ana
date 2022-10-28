@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
   --tamanholinks: 20px;
   --tamanhonomes: 20px;
-  --tamanhoimg:25vw
+  --tamanhoimg: 25vw;
   background-color: #282c3400;
 }
 
@@ -146,7 +146,7 @@ textarea {
 @media (min-width: 1200px) {
   :root {
     --tamanholinks: 30px;
-    --tamanhoimg:300px
+    --tamanhoimg: 300px;
   }
 }
 
@@ -157,6 +157,6 @@ textarea {
   }
 
   :root {
-    --tamanhoimg: 25vw;
+    --tamanhoimg: 35vw;
   }
 }
