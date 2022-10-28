@@ -117,6 +117,10 @@ textarea {
   align-self: center;
 }
 
+.pageImg {
+  width: 30vw;
+}
+
 /* styling footer */
 #contacts {
   display: flex;

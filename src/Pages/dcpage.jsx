@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import { ReactComponent as Marvelimg } from "../images/Marvel.svg";
+import { ReactComponent as Dcimg } from "../images/DC_logo.svg";
 
-class Marvel extends Component {
+class DC extends Component {
   state = {};
   render() {
     return (
       <div className="smallBoxPage">
-        <Marvelimg className="pageImg" />
+        <Dcimg className="pageImg" />
         <p>mais imagens</p>
       </div>
     );
   }
 }
 
-export default Marvel;
+export default DC;

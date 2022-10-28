@@ -18,7 +18,7 @@ class Home extends Component {
             />
           </a>
 
-          <a href="#/trabalhos" className="categories">
+          <a href="#/DC" className="categories">
             <img
               className="categories"
               src="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg"
