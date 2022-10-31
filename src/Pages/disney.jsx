@@ -1,13 +1,15 @@
 import React, { Component } from "react";
-import { ReactComponent as Marvelimg } from "../images/Marvel.svg";
+import { ReactComponent as Disneyimg } from "../images/Disney_logo.svg";
 
 class Disney extends Component {
   state = {};
   render() {
     return (
       <div className="smallBoxPage">
-        <Marvelimg className="pageImg" />
-        <p>mais imagens</p>
+        <Disneyimg className="pageImg" />
+        <div>
+          <p>mais imagens</p>
+        </div>
       </div>
     );
   }

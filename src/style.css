@@ -55,7 +55,6 @@ textarea {
 .NavBar {
   background-color: #0d1d3b;
   border: solid 2px black;
-
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
@@ -76,6 +75,9 @@ textarea {
 }
 /* ....................................................... */
 /* styling Homepage */
+.homeimg {
+  width: 95vw;
+}
 
 .trabalhosImg {
   margin-top: 10px;
@@ -129,6 +131,7 @@ textarea {
   background-color: #282c3400;
   height: 10vh;
   padding-top: 50px;
+  margin-bottom: 15px;
 }
 
 .linkscont {
@@ -158,6 +161,10 @@ textarea {
   .nav {
     justify-content: center;
     --tamanholinks: 12px;
+  }
+
+  #contacts {
+    margin-bottom: 50px;
   }
 
   :root {

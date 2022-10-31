@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import natal from "../images/natal.jpg";
 class Home extends Component {
   state = {};
   render() {
     return (
       <div className="bigBox">
         <div className="trabalhosImg">
-          <h1>por aqui uma imagem</h1>
-          <Link to="/trabalhos">Trabalhos</Link>
+          <Link to="/trabalhos">
+            <img className="homeimg" src={natal} alt="imagem do natal" />
+          </Link>
         </div>
         <div className="categoriesBox">
           <a href="#/marvel" className="categories">

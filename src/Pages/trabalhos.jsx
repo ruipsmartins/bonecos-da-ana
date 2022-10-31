@@ -5,7 +5,7 @@ class Trabalhos extends Component {
   render() {
     return (
       <div className="smallBoxPage">
-        <h1>Imagens dos Trabalhos</h1>
+        <h1>Imagens dos Trabalhos de Natal</h1>
         <p>mais imagens</p>
       </div>
     );
