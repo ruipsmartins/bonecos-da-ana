@@ -6,6 +6,7 @@ import Marvel from "./Pages/marvel";
 import DC from "./Pages/dcpage";
 import Footer from "./Components/footer";
 import Login from "./Pages/login";
+import Disney from "./Pages/disney";
 
 const RouteSwitch = () => {
   return (
@@ -17,6 +18,7 @@ const RouteSwitch = () => {
           <Route path="/trabalhos" element={<Trabalhos />} />
           <Route path="/marvel" element={<Marvel />} />
           <Route path="/DC" element={<DC />} />
+          <Route path="/disney" element={<Disney />} />
           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />

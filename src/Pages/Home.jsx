@@ -26,7 +26,7 @@ class Home extends Component {
             />
           </a>
 
-          <a href="" className="categories">
+          <a href="#/disney" className="categories">
             <img
               className="categories"
               src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Disney_wordmark.svg"
