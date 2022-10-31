@@ -77,11 +77,12 @@ textarea {
 /* styling Homepage */
 .homeimg {
   width: 95vw;
+  max-width: 1200px;
 }
 
 .trabalhosImg {
   margin-top: 10px;
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0);
   width: 95vw;
   text-align: center;
   align-self: center;
@@ -131,7 +132,7 @@ textarea {
   background-color: #282c3400;
   height: 10vh;
   padding-top: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .linkscont {
