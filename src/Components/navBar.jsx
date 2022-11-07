@@ -9,12 +9,12 @@ class NavBar extends Component {
           <Link id="siteName" to="/">
             Bonecos da Ana
           </Link>
-          <div>
+          <div className="navLinks">
             <a
               className="navLink"
               href="javascript: document.body.scrollIntoView(true);"
             >
-              Home
+              Topo
             </a>
 
             <a
@@ -22,6 +22,9 @@ class NavBar extends Component {
               href="javascript: document.body.scrollIntoView(false);"
             >
               Contactos
+            </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i id="burger" className="fa fa-bars"></i>
             </a>
           </div>
         </div>

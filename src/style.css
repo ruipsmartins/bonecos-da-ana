@@ -22,30 +22,25 @@ body {
 /* styling NavBar */
 .navBar {
   background-color: #0d1d3b;
+  position: fixed;
   margin-top: 10vh;
   min-height: 60px;
   height: 9vw;
   max-height: 100px;
   width: 98vw;
   display: flex;
-  position: fixed;
   flex-direction: row;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
   align-items: center;
   color: white;
 }
-.navLink {
-  padding: 10px;
-  text-decoration: none;
-}
-
 #siteName {
+  font-size: calc(10px + 2vmin);
   padding: 10px;
   color: aliceblue;
   text-decoration: none;
 }
-#siteName:hover {
+/* #siteName:hover {
   animation-name: animacaobtn;
   padding: 10px;
   animation-duration: 1000ms;
@@ -55,6 +50,20 @@ body {
   100% {
     background-color: rgb(3, 8, 56);
   }
+} */
+
+.navLinks {
+  font-size: calc(6px + 2vmin);
+}
+
+.navLink {
+  padding: 10px;
+  text-decoration: none;
+}
+
+#burger {
+  font-size: calc(6px + 2vmin);
+  padding: 10px;
 }
 
 /* ....................................................... */
