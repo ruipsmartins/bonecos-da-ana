@@ -19,46 +19,44 @@ body {
   justify-content: space-around;
 }
 
-/* login form */
-input {
-  max-width: 500px;
-}
-
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
 /* styling NavBar */
-.NavBar {
+.navBar {
   background-color: #0d1d3b;
-  border: solid 2px black;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 10vh;
   min-height: 60px;
   height: 9vw;
-  max-height: 120px;
+  max-height: 100px;
   width: 98vw;
   display: flex;
   position: fixed;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   align-items: center;
   color: white;
 }
+.navLink {
+  padding: 10px;
+  text-decoration: none;
+}
+
 #siteName {
+  padding: 10px;
   color: aliceblue;
   text-decoration: none;
 }
+#siteName:hover {
+  animation-name: animacaobtn;
+  padding: 10px;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+@keyframes animacaobtn {
+  100% {
+    background-color: rgb(3, 8, 56);
+  }
+}
+
 /* ....................................................... */
 /* styling Homepage */
 .homeimg {
@@ -96,7 +94,7 @@ textarea {
   width: var(--tamanhoimg);
 }
 
-/* ........................................ */
+/* ....................................................... */
 /* styling pages */
 
 .smallBoxPage {
@@ -110,7 +108,7 @@ textarea {
 .pageImg {
   width: 30vw;
 }
-
+/* ....................................................... */
 /* styling footer */
 #contacts {
   display: flex;
@@ -136,8 +134,8 @@ textarea {
   text-decoration: none;
   background-color: #282c3400;
 }
-
-/*Final dos contactos*/
+/* ....................................................... */
+/*medias*/
 @media (min-width: 1200px) {
   :root {
     --tamanholinks: 30px;
@@ -158,4 +156,21 @@ textarea {
   :root {
     --tamanhoimg: 35vw;
   }
+}
+/* ....................................................... */
+/* login form */
+input {
+  max-width: 500px;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }

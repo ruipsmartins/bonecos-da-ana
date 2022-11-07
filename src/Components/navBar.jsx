@@ -5,10 +5,25 @@ class NavBar extends Component {
   render() {
     return (
       <div className="bigBox">
-        <div className="NavBar">
+        <div className="navBar">
           <Link id="siteName" to="/">
             Bonecos da Ana
           </Link>
+          <div>
+            <a
+              className="navLink"
+              href="javascript: document.body.scrollIntoView(true);"
+            >
+              Home
+            </a>
+
+            <a
+              className="navLink"
+              href="javascript: document.body.scrollIntoView(false);"
+            >
+              Contactos
+            </a>
+          </div>
         </div>
       </div>
     );
