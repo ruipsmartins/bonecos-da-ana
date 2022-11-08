@@ -3,30 +3,53 @@ import { Link } from "react-router-dom";
 
 class NavBar extends Component {
   render() {
+    let mostrarLinks = () => {
+      let x = document.getElementById("linksBox");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    };
     return (
-      <div className="bigBox">
+      <div className="bigBoxNav">
         <div className="navBar">
           <Link id="siteName" to="/">
             Bonecos da Ana
           </Link>
-          <div className="navLinks">
-            <a
-              className="navLink"
-              href="javascript: document.body.scrollIntoView(true);"
-            >
-              Topo
-            </a>
 
-            <a
-              className="navLink"
-              href="javascript: document.body.scrollIntoView(false);"
-            >
-              Contactos
-            </a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i id="burger" className="fa fa-bars"></i>
-            </a>
-          </div>
+          <a className="icon" onClick={mostrarLinks}>
+            <i id="burger" className="fa fa-bars"></i>
+          </a>
+        </div>
+        <div id="linksBox">
+          <Link id="navLink" to="/">
+            Home
+          </Link>
+          <a
+            id="navLink"
+            href="javascript: document.body.scrollIntoView(true);"
+          >
+            Topo
+          </a>
+          <a
+            id="navLink"
+            href="javascript: document.body.scrollIntoView(false);"
+          >
+            Contactos
+          </a>
+          <Link id="navLink" to="/marvel">
+            Marvel
+          </Link>
+          <Link id="navLink" to="/DC">
+            DC
+          </Link>
+          <Link id="navLink" to="/disney">
+            Disney
+          </Link>
+          <Link id="navLink" to="/">
+            Harry Potter
+          </Link>
         </div>
       </div>
     );

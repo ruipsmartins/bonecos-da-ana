@@ -20,10 +20,18 @@ body {
 }
 
 /* styling NavBar */
+.bigBoxNav {
+  background-color: #282c3400;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
 .navBar {
   background-color: #0d1d3b;
-  position: fixed;
-  margin-top: 10vh;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 60px;
   height: 9vw;
   max-height: 100px;
@@ -32,7 +40,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: white;
 }
 #siteName {
   font-size: calc(10px + 2vmin);
@@ -40,30 +47,33 @@ body {
   color: aliceblue;
   text-decoration: none;
 }
-/* #siteName:hover {
-  animation-name: animacaobtn;
-  padding: 10px;
-  animation-duration: 1000ms;
-  animation-fill-mode: forwards;
-}
-@keyframes animacaobtn {
-  100% {
-    background-color: rgb(3, 8, 56);
-  }
-} */
-
-.navLinks {
-  font-size: calc(6px + 2vmin);
-}
-
-.navLink {
-  padding: 10px;
-  text-decoration: none;
-}
 
 #burger {
   font-size: calc(6px + 2vmin);
   padding: 10px;
+  align-self: center;
+}
+
+#linksBox {
+  margin-left: auto;
+  color: aliceblue;
+  width: fit-content;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0.5vw;
+  background-color: rgb(49, 49, 49);
+  font-size: calc(1px + 2vmin);
+  display: flex;
+  flex-direction: column;
+}
+
+#navLink {
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+#navLink:hover {
+  background-color: rgb(19, 18, 18);
 }
 
 /* ....................................................... */
@@ -112,6 +122,7 @@ body {
   width: 95vw;
   text-align: center;
   align-self: center;
+  min-height: 78vh;
 }
 
 .pageImg {
