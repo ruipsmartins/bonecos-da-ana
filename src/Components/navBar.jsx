@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 
 class NavBar extends Component {
   render() {
@@ -11,6 +14,7 @@ class NavBar extends Component {
         x.style.display = "flex";
       }
     };
+
     return (
       <div className="bigBoxNav">
         <div className="navBar">
@@ -22,7 +26,7 @@ class NavBar extends Component {
             <i id="burger" className="fa fa-bars"></i>
           </a>
         </div>
-        <div id="linksBox">
+        <div onClick={mostrarLinks} id="linksBox">
           <Link id="navLink" to="/">
             Home
           </Link>

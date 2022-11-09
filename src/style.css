@@ -21,13 +21,14 @@ body {
 
 /* styling NavBar */
 .bigBoxNav {
-  background-color: #282c3400;
+  background-color: #34283293;
   position: fixed;
   top: 20px;
   left: 0;
   right: 0;
 }
 .navBar {
+  z-index: 2;
   background-color: #0d1d3b;
   color: white;
   margin-left: auto;
@@ -49,7 +50,7 @@ body {
 }
 
 #burger {
-  font-size: calc(6px + 2vmin);
+  font-size: calc(10px + 2vmin);
   padding: 10px;
   align-self: center;
 }
@@ -63,7 +64,7 @@ body {
   margin-right: 0.5vw;
   background-color: rgb(49, 49, 49);
   font-size: calc(1px + 2vmin);
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
