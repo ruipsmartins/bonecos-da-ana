@@ -56,11 +56,9 @@ body {
 }
 
 #linksBox {
-  margin-left: auto;
+  margin-left: 0.5vw;
   color: aliceblue;
   width: fit-content;
-  text-align: right;
-  margin-left: auto;
   margin-right: 0.5vw;
   background-color: rgb(49, 49, 49);
   font-size: calc(1px + 2vmin);
@@ -74,6 +72,14 @@ body {
   color: aliceblue;
 }
 #navLink:hover {
+  background-color: rgb(19, 18, 18);
+}
+#dropdown-basic {
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+#dropdown-basic:hover {
   background-color: rgb(19, 18, 18);
 }
 

@@ -15,45 +15,62 @@ class NavBar extends Component {
       }
     };
 
+    const options = ["one", "two", "three"];
+    const defaultOption = options[0];
+
     return (
       <div className="bigBoxNav">
         <div className="navBar">
-          <Link id="siteName" to="/">
-            Bonecos da Ana
-          </Link>
-
           <a className="icon" onClick={mostrarLinks}>
             <i id="burger" className="fa fa-bars"></i>
           </a>
+
+          <Link id="siteName" to="/">
+            Bonecos da Ana
+          </Link>
         </div>
-        <div onClick={mostrarLinks} id="linksBox">
-          <Link id="navLink" to="/">
+        <div id="linksBox">
+          <Link onClick={mostrarLinks} id="navLink" to="/">
             Home
           </Link>
           <a
+            onClick={mostrarLinks}
             id="navLink"
             href="javascript: document.body.scrollIntoView(true);"
           >
             Topo
           </a>
           <a
+            onClick={mostrarLinks}
             id="navLink"
             href="javascript: document.body.scrollIntoView(false);"
           >
             Contactos
           </a>
-          <Link id="navLink" to="/marvel">
-            Marvel
-          </Link>
-          <Link id="navLink" to="/DC">
-            DC
-          </Link>
-          <Link id="navLink" to="/disney">
-            Disney
-          </Link>
-          <Link id="navLink" to="/">
-            Harry Potter
-          </Link>
+
+          <Dropdown>
+            <Dropdown.Toggle variant="" id="dropdown-basic">
+              Categorias
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item onClick={mostrarLinks} href="#/marvel">
+                Marvel
+              </Dropdown.Item>
+              <Dropdown.Item onClick={mostrarLinks} href="#/DC">
+                DC
+              </Dropdown.Item>
+              <Dropdown.Item onClick={mostrarLinks} href="#/disney">
+                Disney
+              </Dropdown.Item>
+              <Dropdown.Item onClick={mostrarLinks} href="#/harrypotter">
+                Harry Potter
+              </Dropdown.Item>
+              <Dropdown.Item onClick={mostrarLinks} href="#/animes">
+                Animes
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </div>
       </div>
     );
