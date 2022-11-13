@@ -12,6 +12,15 @@ function Footer() {
         >
           <i className="fab fa-facebook-square"></i> Facebook
         </a>
+
+        <a
+          href="https://www.instagram.com/handmade_and_shine/"
+          className="linkscont"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-instagram"></i> Instagram
+        </a>
         <a
           id="links"
           href="https://github.com/ruipsmartins"
@@ -22,14 +31,6 @@ function Footer() {
           <i className="fab fa-github"></i> GitHub
         </a>
         <a
-          href="https://www.instagram.com/lancheajantarado/"
-          className="linkscont"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-instagram"></i> Instagram
-        </a>
-        <a
           href="mailto:teste@gmail.com"
           className="linkscont"
           target="_blank"
@@ -38,12 +39,12 @@ function Footer() {
           <i className="fas fa-at"></i> Enviar email
         </a>
         <a
-          href="tel:912345678"
+          href="tel:910000000"
           className="linkscont"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-mobile-alt"></i> 912345678
+          <i className="fas fa-mobile-alt"></i> 910000000
         </a>
       </div>
     </section>

@@ -23,7 +23,7 @@ body {
 .bigBoxNav {
   background-color: #34283293;
   position: fixed;
-  top: 20px;
+  top: 0;
   left: 0;
   right: 0;
 }
@@ -64,17 +64,20 @@ body {
   font-size: calc(1px + 2vmin);
   display: none;
   flex-direction: column;
+  border-radius: 5%;
 }
 
 #navLink {
   padding: 10px;
   text-decoration: none;
   color: aliceblue;
+  border-radius: 5%;
 }
 #navLink:hover {
   background-color: rgb(19, 18, 18);
 }
 #dropdown-basic {
+  font-size: calc(1px + 2vmin);
   padding: 10px;
   text-decoration: none;
   color: aliceblue;
