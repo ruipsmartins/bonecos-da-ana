@@ -28,7 +28,6 @@ body {
   right: 0;
 }
 .navBar {
-  z-index: 2;
   background-color: #0d1d3b;
   color: white;
   margin-left: auto;
@@ -36,18 +35,18 @@ body {
   min-height: 60px;
   height: 9vw;
   max-height: 100px;
-  width: 98vw;
+  width: 99vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-#siteName {
+/* #siteName {
   font-size: calc(10px + 2vmin);
   padding: 10px;
   color: aliceblue;
   text-decoration: none;
-}
+} */
 
 #burger {
   font-size: calc(10px + 2vmin);
@@ -61,10 +60,14 @@ body {
   width: fit-content;
   margin-right: 0.5vw;
   background-color: rgb(49, 49, 49);
-  font-size: calc(1px + 2vmin);
+  font-size: 30px;
   display: none;
-  flex-direction: column;
-  border-radius: 5%;
+  flex-direction: row;
+}
+@media (max-width: 700px) {
+  #linksBox {
+    flex-direction: column;
+  }
 }
 
 #navLink {
@@ -77,13 +80,19 @@ body {
   background-color: rgb(19, 18, 18);
 }
 #dropdown-basic {
-  font-size: calc(1px + 2vmin);
+  font-size: 30px;
   padding: 10px;
   text-decoration: none;
   color: aliceblue;
 }
 #dropdown-basic:hover {
   background-color: rgb(19, 18, 18);
+}
+
+.mainLogo {
+  min-height: 60px;
+  height: 9vw;
+  max-height: 100px;
 }
 
 /* ....................................................... */
@@ -120,6 +129,7 @@ body {
   justify-content: center;
   align-self: center;
   height: 17vw;
+  min-width: 200px;
   width: var(--tamanhoimg);
 }
 

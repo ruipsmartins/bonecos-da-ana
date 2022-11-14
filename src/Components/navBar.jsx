@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
+import mainLogo from "../images/site_logo.png";
+/* import ButtonGroup from "react-bootstrap/ButtonGroup";
+import DropdownButton from "react-bootstrap/DropdownButton"; */
 
 class NavBar extends Component {
   render() {
@@ -13,6 +14,10 @@ class NavBar extends Component {
       } else {
         x.style.display = "flex";
       }
+    };
+    let esconderLinks = () => {
+      let x = document.getElementById("linksBox");
+      x.style.display = "none";
     };
 
     const options = ["one", "two", "three"];
@@ -26,7 +31,12 @@ class NavBar extends Component {
           </a>
 
           <Link id="siteName" to="/">
-            Bonecos da Ana
+            <img
+              className="mainLogo"
+              onClick={esconderLinks}
+              src={mainLogo}
+              alt="logo"
+            />
           </Link>
         </div>
         <div id="linksBox">
