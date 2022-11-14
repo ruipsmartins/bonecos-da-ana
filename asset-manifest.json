@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bonecos-da-ana/static/css/main.dbb83e2d.css",
-    "main.js": "/bonecos-da-ana/static/js/main.5e53bde4.js",
+    "main.css": "/bonecos-da-ana/static/css/main.26b14545.css",
+    "main.js": "/bonecos-da-ana/static/js/main.548d5ad4.js",
     "static/media/natal.jpg": "/bonecos-da-ana/static/media/natal.310bb2fed38d45c93749.jpg",
     "static/media/site_logo.png": "/bonecos-da-ana/static/media/site_logo.aaa4ffa20c87eacdec1c.png",
     "static/media/Disney_logo.svg": "/bonecos-da-ana/static/media/Disney_logo.b80e3cda5cdaa07560ec0ceeb37e796b.svg",
@@ -9,11 +9,11 @@
     "static/media/DC_logo.svg": "/bonecos-da-ana/static/media/DC_logo.f088bb407aced581d1891ba56daf0b21.svg",
     "static/media/Marvel.svg": "/bonecos-da-ana/static/media/Marvel.ce377fd37227dd680d0b06449a5bcc4c.svg",
     "index.html": "/bonecos-da-ana/index.html",
-    "main.dbb83e2d.css.map": "/bonecos-da-ana/static/css/main.dbb83e2d.css.map",
-    "main.5e53bde4.js.map": "/bonecos-da-ana/static/js/main.5e53bde4.js.map"
+    "main.26b14545.css.map": "/bonecos-da-ana/static/css/main.26b14545.css.map",
+    "main.548d5ad4.js.map": "/bonecos-da-ana/static/js/main.548d5ad4.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbb83e2d.css",
-    "static/js/main.5e53bde4.js"
+    "static/css/main.26b14545.css",
+    "static/js/main.548d5ad4.js"
   ]
 }
