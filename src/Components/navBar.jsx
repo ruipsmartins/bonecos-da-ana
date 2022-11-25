@@ -70,6 +70,7 @@ class NavBar extends Component {
               <Dropdown.Item onClick={mostrarLinks} href="#/DC">
                 DC
               </Dropdown.Item>
+
               <Dropdown.Item onClick={mostrarLinks} href="#/disney">
                 Disney
               </Dropdown.Item>
@@ -77,7 +78,10 @@ class NavBar extends Component {
                 Harry Potter
               </Dropdown.Item>
               <Dropdown.Item onClick={mostrarLinks} href="#/animes">
-                Animes
+                Animes Japoneses
+              </Dropdown.Item>
+              <Dropdown.Item onClick={mostrarLinks} href="#/animais">
+                Animais
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

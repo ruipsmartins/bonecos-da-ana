@@ -44,18 +44,11 @@ class Home extends Component {
             />
           </a>
           <a href="" className="categories">
-            <img
-              className="categories"
-              src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
-              alt="Pokemon"
-            />
+            <p className="textCat">Animes Japoneses</p>
           </a>
+
           <a href="" className="categories">
-            <img
-              className="categories"
-              src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
-              alt="Pokemon"
-            />
+            <p className="textCat">Animais</p>
           </a>
         </div>
       </div>

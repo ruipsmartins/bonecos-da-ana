@@ -3,11 +3,13 @@
   --tamanholinks: 20px;
   --tamanhonomes: 20px;
   --tamanhoimg: 25vw;
-  background-color: #282c3400;
+  background-color: #282c34;
 }
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 body {
-  background-image: url("./images/background.svg");
+  /* background-image: url("./images/background.svg"); */
+  background-image: url("./images/backgroundborbuleta.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,15 +126,24 @@ body {
   flex-wrap: wrap;
 }
 .categories {
-  background-color: rgb(240, 248, 255);
+  background-color: rgba(240, 248, 255, 0);
+  color: black;
   display: flex;
-  align-items: center;
-  justify-content: center;
   align-self: center;
+  justify-content: center;
   height: 17vw;
   min-width: 200px;
   width: var(--tamanhoimg);
   margin: 10px;
+  text-decoration: none;
+}
+
+.textCat {
+  align-self: center;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  line-height: 80%;
+  font-size: calc(15px + 6vmin);
 }
 
 /* ....................................................... */
