@@ -185,18 +185,24 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .nav {
     justify-content: center;
     --tamanholinks: 12px;
   }
 
   #contacts {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   :root {
     --tamanhoimg: 35vw;
+  }
+}
+
+@media (max-width: 290px) {
+  #contacts {
+    margin-bottom: 100px;
   }
 }
 /* ....................................................... */
