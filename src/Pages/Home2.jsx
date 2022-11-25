@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import natal from "../images/natal.jpg";
-class Home extends Component {
+import "./home2.css";
+class Home2 extends Component {
   state = {};
   render() {
     return (
@@ -10,6 +11,21 @@ class Home extends Component {
           <Link to="/trabalhos">
             <img className="homeimg" src={natal} alt="imagem do natal" />
           </Link>
+          <h1 className="teste">home 2</h1>
+
+          <div className="btn-group dropend">
+            <button
+              type="button"
+              class="btn btn-secondary dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropend
+            </button>
+            <ul className="dropdown-menu">
+              <a href="/sdf">teste</a>
+            </ul>
+          </div>
         </div>
         <div className="categoriesBox">
           <a href="#/marvel" className="categories">
@@ -50,17 +66,10 @@ class Home extends Component {
               alt="Pokemon"
             />
           </a>
-          <a href="" className="categories">
-            <img
-              className="categories"
-              src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
-              alt="Pokemon"
-            />
-          </a>
         </div>
       </div>
     );
   }
 }
 
-export default Home;
+export default Home2;
